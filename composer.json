@@ -15,6 +15,7 @@
       "preferred-install": "dist"
     },
     "type": "prestashop-module",
-    "license": "AFL-3.0"
+    "license": "AFL-3.0",
+    "homepage": "https://github.com/frederic-benoist/fbsample-advconfig"
   }
   
