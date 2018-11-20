@@ -1,6 +1,6 @@
 {
     "name": "fbenoist/fbsample_advconfig",
-    "description": "Sample PrestaShop module.",
+    "description": "Sample automatic setup PrestaShop 1.7 Module.",
     "authors": [
       {
         "name": "Frédéric BENOIST",

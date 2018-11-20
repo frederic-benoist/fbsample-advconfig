@@ -40,8 +40,13 @@ class FbSample_AdvConfig extends Module
         $this->tab = 'others';
         parent::__construct();
 
-        $this->displayName = $this->l(' Module config sample');
-        $this->ps_versions_compliancy = array('min' => '1.7.2', 'max' => _PS_VERSION_);
-        $this->description = $this->l('Advanced Module config sample (PrestaShop 1.7.2)');
+        $this->displayName = $this->l('Sample automatic setup Module');
+        $this->ps_versions_compliancy = array(
+            'min' => '1.7.2',
+            'max' => _PS_VERSION_
+        );
+        $this->description = $this->l(
+            'Sample automatic setup of PrestaShop 1.7 module without configuration page.'
+        );
     }
 }
