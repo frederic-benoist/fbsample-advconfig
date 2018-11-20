@@ -31,6 +31,8 @@ class MyAdvancedSetup implements ModuleComplexConfigurationInterface
 {
     public function run(Module $module, array $params)
     {
-        echo "Advanced Setup done !";
+        echo 'Setup for '.$module->displayName;
+        var_dump($params);
+        echo 'Done !';
     }
 }
