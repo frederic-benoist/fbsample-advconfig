@@ -1,0 +1,32 @@
+# This file is an example of data configuration which can be applied to a module
+
+# Data to be updated in Configuration table
+configuration:
+    update:
+        ADVCONFIG_VALUE_INT: 1
+        ADVCONFIG_VALUE_STR: "the value"
+    delete:
+        - "ADVCONFIG_SAMPLE_REMOVE"
+
+# SQL files to execute
+sql:
+    - file: "setup/sql/advconfig_sample.sql"
+    # The 'file' key is optional
+    - "setup/sql/advconfig_sample_other.sql"
+
+# File to copy from local disk or website
+files:
+    - source: "setup/files/source.txt"
+      dest: "media/dest.txt"
+    - source: "https://www.prestashop.com"
+      dest: "media/webpage.html"
+
+# Fox complex configuration data, allow PHP code to be executed
+php:
+    - file: "setup/MyAdvancedSetup.php"
+      params:
+        - myParam1: 1
+        - oneArrayParam:
+            - "value1"
+            - "value2"
+            - withSpecificKey: "value3"
