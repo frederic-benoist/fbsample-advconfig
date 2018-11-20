@@ -57,8 +57,7 @@ See also the list of [contributors](https://github.com/frederic-benoist/fbsample
 ## Licensing
 
 This source file is subject to the Academic Free License (AFL 3.0)
-that is bundled with this package in the file LICENSE.txt.
-It is also available through the world-wide-web at this URL:
+that is available through the world-wide-web at this URL:
 http://opensource.org/licenses/afl-3.0.php
 If you did not receive a copy of the license and are unable to
 obtain it through the world-wide-web, please send an email
