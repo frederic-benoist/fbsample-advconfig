@@ -4,7 +4,8 @@
     "authors": [
       {
         "name": "Frédéric BENOIST",
-        "email": "info@fbenoist.com"
+        "email": "info@fbenoist.com",
+        "homepage": "https://www.fbenoist.com/"
       }
     ],
     "require": {
@@ -13,6 +14,7 @@
     "config": {
       "preferred-install": "dist"
     },
-    "type": "prestashop-module"
+    "type": "prestashop-module",
+    "license": "AFL-3.0"
   }
   
