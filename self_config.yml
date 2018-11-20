@@ -29,4 +29,5 @@ php:
         - oneArrayParam:
             - "value1"
             - "value2"
+        - myParam2: 
             - withSpecificKey: "value3"

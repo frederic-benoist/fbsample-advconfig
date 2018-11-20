@@ -31,8 +31,11 @@ class MyAdvancedSetup implements ModuleComplexConfigurationInterface
 {
     public function run(Module $module, array $params)
     {
-        echo 'Setup for '.$module->displayName;
-        var_dump($params);
+        echo 'Setup for '.$module->instance->displayName."\n";
+        echo 'myParam1='.$params[0]['myParam1']."\n";
+        echo 'oneArrayParam='.implode(',', $params[1]['oneArrayParam'])."\n";
+        echo 'myParam1='.$params[0]['myParam1']."\n";
+        echo 'withSpecificKey='.$params[2]['myParam2'][0]['withSpecificKey']."\n";
         echo 'Done !';
     }
 }
