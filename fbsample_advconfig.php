@@ -37,10 +37,11 @@ class FbSample_AdvConfig extends Module
         $this->version = '1.0.0';
         $this->need_instance = 0;
         $this->bootstrap = true;
+        $this->tab = 'others';
         parent::__construct();
 
         $this->displayName = $this->l(' Module config sample');
-        $this->ps_versions_compliancy = array('min' => '1.7', 'max' => _PS_VERSION_);
-        $this->description = $this->l('Advanced Module config sample (PrestaShop 1.7)');
+        $this->ps_versions_compliancy = array('min' => '1.7.2', 'max' => _PS_VERSION_);
+        $this->description = $this->l('Advanced Module config sample (PrestaShop 1.7.2)');
     }
 }
